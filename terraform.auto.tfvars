@@ -33,7 +33,7 @@ hx_netmask = "255.255.192.0"
 hx_gateway = "198.18.128.1"
 
 # MAC prefix
-mac_prefix = "00"
+mac_prefix = "00:25:B5:01"
 
 # Storage VLAN
 storage_vlan_name = "hx-storage-100"
@@ -70,10 +70,10 @@ dns_domain = "dcloud.cisco.com"
 dns = ["198.18.133.1"]
 
 # UCSM KVM IP
-kvm_ip_start = "10.29.133.242"
-kvm_ip_end = "10.29.133.245"
-kvm_netmask = "255.255.255.0"
-kvm_gateway = "10.29.133.1"
+kvm_ip_start = "198.18.135.116"
+kvm_ip_end = "198.18.135.117"
+kvm_netmask = "255.255.192.0"
+kvm_gateway = "198.18.128.1"
 
 # VCenter
 vcenter_hostname = "198.18.133.30"
